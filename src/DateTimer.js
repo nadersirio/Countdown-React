@@ -16,7 +16,7 @@ const DateTimer = ({ date }) => {
   if(endDate < today) {
     return (
       <div>
-        <p>Esta data ja passou!</p>
+        <p className="content-timer">Esta data ja passou!</p>
       </div>
     )
   }
