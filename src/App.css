@@ -28,6 +28,7 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+  gap: 20px;
 }
 
 .dateInput {
@@ -80,19 +81,24 @@
   font-size: 0.6rem;
 }
 
+.content-timer {
+  display: flex;
+  font-size: 1.3em;
+}
+
 .DateLayout {
   display: column;
   font-size: 1.3em;
 }
 
-.dates {
-  margin: 0 10px 25px 10px;
-  font-size: 1.5em;
-  letter-spacing: 1rem;
+.doublePointTimer {
+  place-self: flex-end;
+  font-size: 34px;
+  color: black;
 }
 
-.doublePointTimer {
-  padding-top: 31px;
+.DateLayout::first-letter {
+  color: black;
 }
 
 @keyframes App-logo-spin {
